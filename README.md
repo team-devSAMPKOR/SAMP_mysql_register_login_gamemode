@@ -8,8 +8,8 @@ TODO : README 읽어주세요<br>
 <p>
 	scriptfiles/database.cfg [new file]<p>
 
-	hostname=localhost<br>
-	username=<br>
-	database=<br>
-	password=<br>
+	hostname=localhost
+	username=
+	database=
+	password=
   <p>
