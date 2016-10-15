@@ -20,6 +20,10 @@
 #define REGIST      301
 #define SAVE        302
 
+/*Dialog 400 */
+#define DL_LOGIN       400
+#define DL_REGIST      401
+
 main(){}
 
 /* variable */
@@ -55,16 +59,35 @@ public OnGameModeInit(){
 }
 
 public OnPlayerRequestClass(playerid, classid){
-	if(manager(SQL, CHECK, playerid)){
-		print("login plz");
-	}else{
-		print("regist plz");
+	join(playerid, manager(SQL, CHECK, playerid));
+	return 1;
+}
+
+public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]){
+//    if(!response && dialogid == DL_LOGIN || DL_REGIST) return Kick(playerid);
+    
+	switch(dialogid){
+		case DL_LOGIN  : checked(playerid, inputtext);
+		case DL_REGIST : manager(SQL, REGIST, playerid, inputtext);
+	}
+	return 1;
+}
+stock checked(playerid, password[]){
+	if(strcmp(password, USER[playerid][PASS])) return join(playerid, 1), SendClientMessage(playerid,-1,"login fail");
+	SendClientMessage(playerid,-1,"login success");
+	return 1;
+}
+
+stock join(playerid, type){
+	switch(playerid, type){
+	    case 0 : ShowPlayerDialog(playerid, DL_REGIST, DIALOG_STYLE_PASSWORD, "manager", "Regist plz", "join", "quit");
+	    case 1 : ShowPlayerDialog(playerid, DL_LOGIN, DIALOG_STYLE_PASSWORD, "manager", "Login plz", "join", "quit");
 	}
 	return 1;
 }
 
-stock manager(model, type, playerid = -1){
-	new result = 0;
+stock manager(model, type, playerid = -1, text[] = ""){
+	new result;
 	switch(model){
 	    case INIT :{
 			switch(type){
@@ -77,7 +100,7 @@ stock manager(model, type, playerid = -1){
 	    case SQL : {
 			switch(type){
 				case CHECK	: result = check(playerid);
-				case REGIST	: regist(playerid);
+				case REGIST	: regist(playerid,text);
 				case SAVE	: save(playerid);
 			}
 	    }
@@ -93,14 +116,40 @@ public check(playerid){
 	GetPlayerName(playerid, USER[playerid][NAME], MAX_PLAYER_NAME);
 	mysql_format(mysql, query, sizeof(query), "SELECT PASS FROM `userlog_info` WHERE `NAME` = '%s' LIMIT 1", USER[playerid][NAME]);
 	mysql_query(mysql, query);
+	
+	cache_get_field_content(0, "PASS", USER[playerid][PASS], mysql, 24);
 
 	result = cache_num_rows();
 	return result;
 }
 
-forward regist(playerid);
-public regist(playerid){
+forward regist(playerid, pass[]);
+public regist(playerid, pass[]){
 
+	format(USER[playerid][PASS],24, "%s",pass);
+	
+	new query[256];
+	GetPlayerName(playerid, USER[playerid][NAME], MAX_PLAYER_NAME);
+	mysql_format(mysql, query, sizeof(query), "INSERT INTO `userlog_info` (`NAME`,`PASS`,`ADMIN`,`MONEY`,`KILLS`,`DEATHS`,`SKIN`,`POS_X`,`POS_Y`,`POS_Z`,`ANGLE`,`HP`,`AM`) VALUES ('%s','%s',%d,%d,%d,%d,%d,%f,%f,%f,%f,%f,%f)",
+	USER[playerid][NAME],
+	USER[playerid][PASS],
+	USER[playerid][ADMIN] = 0,
+	USER[playerid][MONEY] = 0,
+	USER[playerid][KILLS] = 0,
+	USER[playerid][DEATHS] = 0,
+	USER[playerid][SKIN] = 0,
+	USER[playerid][POS_X] = 0.0,
+	USER[playerid][POS_Y] = 0.0,
+	USER[playerid][POS_Z] = 0.0,
+	USER[playerid][ANGLE] = 0.0,
+	USER[playerid][HP] = 100.0,
+	USER[playerid][AM] = 100.0
+	);
+
+	printf("%f",USER[playerid][HP]);
+	
+	mysql_query(mysql, query);
+	SendClientMessage(playerid,-1,"regist success");
 }
 
 forward save(playerid);
