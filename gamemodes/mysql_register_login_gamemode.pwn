@@ -300,11 +300,8 @@ stock dbcon(){
     }
 	mysql = mysql_connect(db_value[0], db_value[1], db_value[2], db_value[3]);
 	mysql_set_charset("euckr");
-	if(mysql_errno(mysql)){
-		print("db error");
-	}else{
-		print("db connection success.");
-	}
+	
+	if(!mysql_errno(mysql))print("db connection success.");
 }
 
 stock cleaning(playerid){
