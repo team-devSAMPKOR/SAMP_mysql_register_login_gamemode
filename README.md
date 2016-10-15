@@ -13,7 +13,7 @@ foreach v1.1<br>
 	v0.3
 		로그인 회원가입 login system / regist system
 	v0.4
-		데이터 로드 저장 data load / data save
+		데이터 로드 저장 서버 스레드 data load / data save / server thread
 	v0.5
 		주석처리 comment
   <p>
