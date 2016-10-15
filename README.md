@@ -8,13 +8,13 @@ foreach v1.1<br>
 	브런치목록<p>
 
 	v0.2
-		구조화 디비연결
+		구조화 디비연결 structured / db connection
 	v0.3
-		로그인 회원가입
+		로그인 회원가입 login system / regist system
 	v0.4
-		데이터 로드 저장
+		데이터 로드 저장 data load / data save
 	v0.5
-		주석처리
+		주석처리 comment
   <p>
 <h6>
 
