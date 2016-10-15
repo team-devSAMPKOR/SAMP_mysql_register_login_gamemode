@@ -1,4 +1,4 @@
-/*@u4biv.02
+/*@u4bi v.03
   @mysql_register_login_gamemode
   @https://github.com/u4bi
 */
