@@ -3,6 +3,7 @@ SAMP_mysql_register_login_gamemode
 
 MySQL/R33<br>
 foreach v1.1<br>
+<h1>
 <p>
 	브런치목록<p>
 
@@ -15,7 +16,7 @@ foreach v1.1<br>
 	v0.5
 		주석처리
   <p>
-
+<h1>
 
 <p>
 	scriptfiles/database.cfg [new file]<p>
