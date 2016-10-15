@@ -11,26 +11,31 @@
 #define SQL			101
 
 /*init 200 */
-#define GAMEMODE    200
-#define SERVER      201
-#define MYSQL      	202
-#define THREAD     	203
-#define USERDATA    204
+#define GAMEMODE	200
+#define SERVER		201
+#define MYSQL		202
+#define THREAD		203
+#define USERDATA	204
 
 /*query 300 */
-#define CHECK       300
-#define REGIST      301
-#define SAVE        302
-#define LOAD        303
+#define CHECK		300
+#define REGIST		301
+#define SAVE		302
+#define LOAD		303
 
 /*Dialog 400 */
-#define DL_LOGIN       400
-#define DL_REGIST      401
+#define DL_LOGIN	400
+#define DL_REGIST	401
 
 main(){}
 
-/* variable */
+forward check(playerid);
+forward regist(playerid, pass[]);
+forward save(playerid);
+forward load(playerid);
+forward ServerThread();
 
+/* variable */
 enum USER_MODEL{
  	ID,
 	NAME[MAX_PLAYER_NAME],
@@ -59,7 +64,7 @@ static mysql;
 	@ OnGameModeExit
 	@ OnGameModeInit -> manager(INIT)
 	@ OnPlayerRequestClass -> join(playerid, type) ->
-										<- return function -> login0/regist1
+											<- return function -> login0/regist1
 											manager(SQL, CHECK, playerid) : join user id check
 	@ OnDialogResponse -> 	@ login dialog
 							@ regist dialog
@@ -165,7 +170,6 @@ stock join(playerid, type){
 	@ save(playerid)
 	@ load(playerid)
 */
-forward check(playerid);
 public check(playerid){
 	new query[128], result;
 	GetPlayerName(playerid, USER[playerid][NAME], MAX_PLAYER_NAME);
@@ -180,7 +184,6 @@ public check(playerid){
 	return result;
 }
 
-forward regist(playerid, pass[]);
 public regist(playerid, pass[]){
 
 	format(USER[playerid][PASS],24, "%s",pass);
@@ -208,7 +211,6 @@ public regist(playerid, pass[]){
 	spawn(playerid);
 }
 
-forward save(playerid);
 public save(playerid){
 	GetPlayerPos(playerid,USER[playerid][POS_X],USER[playerid][POS_Y],USER[playerid][POS_Z]);
 	GetPlayerFacingAngle(playerid, USER[playerid][ANGLE]);
@@ -221,7 +223,6 @@ public save(playerid){
 	mysql_query(mysql, query);
 }
 
-forward load(playerid);
 public load(playerid){
 	new query[128];
 	mysql_format(mysql, query, sizeof(query), "SELECT * FROM `userlog_info` WHERE `ID` = %d LIMIT 1", USER[playerid][ID]);
@@ -317,7 +318,7 @@ stock cleaning(playerid){
 	foreach
 	    eventMoney : timer 500 give money +1
 */
-forward ServerThread();
+
 public ServerThread(){
     foreach (new i : Player){
         eventMoney(i);
