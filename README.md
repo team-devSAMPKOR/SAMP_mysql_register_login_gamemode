@@ -1,6 +1,7 @@
 # SAMP_mysql_register_login_gamemode
 SAMP_mysql_register_login_gamemode
 
+a_samp<br>
 MySQL/R33<br>
 foreach v1.1<br>
 <h6>
