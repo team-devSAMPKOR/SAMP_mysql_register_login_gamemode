@@ -193,10 +193,10 @@ public regist(playerid, pass[]){
 	USER[playerid][KILLS] = 0,
 	USER[playerid][DEATHS] = 0,
 	USER[playerid][SKIN] = 129,
-	USER[playerid][POS_X] = 0.0,
- 	USER[playerid][POS_Y] = 0.0,
-	USER[playerid][POS_Z] = 0.0,
-	USER[playerid][ANGLE] = 0.0,
+	USER[playerid][POS_X] = 1925.0215,
+ 	USER[playerid][POS_Y] = -1684.2222,
+	USER[playerid][POS_Z] = 13.5469,
+	USER[playerid][ANGLE] = 255.7507,
 	USER[playerid][HP] = 100.0,
 	USER[playerid][AM] = 100.0);
 
@@ -265,7 +265,7 @@ stock thread(){
 }
 stock server(){
 	SetGameModeText("Blank Script");
-	AddPlayerClass(289,1925.0215,-1684.2222,13.5469,255.7507,0,0,0,0,0,0);
+	AddPlayerClass(0,0,0,0,0,0,0,0,0,0,0);
 }
 stock mode(){}
 /* TODO : README
