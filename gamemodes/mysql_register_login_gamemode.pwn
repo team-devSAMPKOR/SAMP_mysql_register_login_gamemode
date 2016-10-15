@@ -67,7 +67,7 @@ static mysql;
                                             <- return function -> login0/regist1
                                             manager(SQL, CHECK, playerid) : join user id check
 	@ OnDialogResponse -> 	@ login dialog
-							@ regist dialog
+                            @ regist dialog
 
 	@ OnPlayerCommandText ->@ /sav : data save
 
@@ -119,27 +119,27 @@ public OnPlayerDisconnect(playerid, reason){
 /* manager ------------------------------------------------------------------------------------------------------------------------------
 */
 stock manager(model, type, playerid = -1, text[] = ""){
-	new result;
-	switch(model){
-	    case INIT :{
-			switch(type){
-				case GAMEMODE : mode();
-				case SERVER   : server();
-				case MYSQL    : dbcon();
-				case THREAD   : thread();
-				case USERDATA : cleaning(playerid);
-			}
-	    }
-	    case SQL : {
-			switch(type){
-				case CHECK	: result = check(playerid);
-				case REGIST	: regist(playerid,text);
-				case SAVE	: save(playerid);
-				case LOAD   : load(playerid);
-			}
-	    }
-	}
-	return result;
+    new result;
+    switch(model){
+        case INIT :{
+            switch(type){
+                case GAMEMODE : mode();
+                case SERVER   : server();
+                case MYSQL    : dbcon();
+                case THREAD   : thread();
+                case USERDATA : cleaning(playerid);
+            }
+        }
+        case SQL : {
+            switch(type){
+                case CHECK  : result = check(playerid);
+                case REGIST : regist(playerid,text);
+                case SAVE   : save(playerid);
+                case LOAD   : load(playerid);
+            }
+        }
+    }
+    return result;
 }
 
 /* function ----------------------------------------------------------------------------------------------------------------
