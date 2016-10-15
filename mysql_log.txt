@@ -1,0 +1,8 @@
+[07:09:40] [ERROR] CMySQLConnection::Connect - (error #2003) Can't connect to MySQL server on 'localhost' (10061)
+[07:09:40] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[07:09:42] [ERROR] CMySQLConnection::Connect - (error #2003) Can't connect to MySQL server on 'localhost' (10061)
+[07:09:42] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[07:09:42] [ERROR] CMySQLConnection::Connect - (error #2003) Can't connect to MySQL server on 'localhost' (10061)
+[07:09:42] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[07:09:42] [ERROR] CMySQLConnection::Connect - (error #2003) Can't connect to MySQL server on 'localhost' (10061)
+[07:09:42] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
