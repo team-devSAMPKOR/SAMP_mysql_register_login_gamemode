@@ -279,29 +279,29 @@ stock mode(){}
 
 */
 stock dbcon(){
-	new db_key[4][128] = {"hostname", "username", "database", "password"};
-	new db_value[4][128];
+    new db_key[4][128] = {"hostname", "username", "database", "password"};
+    new db_value[4][128];
 
-	new File:cfg=fopen("database.cfg", io_read);
-	new temp[64], tick =0;
+    new File:cfg=fopen("database.cfg", io_read);
+    new temp[64], tick =0;
 
-	while(fread(cfg, temp)){
+    while(fread(cfg, temp)){
         if(strcmp(temp, db_key[tick], true, 1)==0){
-			while(strfind(temp, "=") != -1){
-			    new pos = strfind(temp, "=");
-				strdel(temp, 0, pos+1);
-				new len = strlen(temp);
-				if(tick != 3)strdel(temp, len-2, len);
-				db_value[tick] = temp;
-				break;
-			}
-		}
+            while(strfind(temp, "=") != -1){
+                new pos = strfind(temp, "=");
+                strdel(temp, 0, pos+1);
+                new len = strlen(temp);
+                if(tick != 3)strdel(temp, len-2, len);
+                db_value[tick] = temp;
+                break;
+            }
+        }
         tick++;
     }
-	mysql = mysql_connect(db_value[0], db_value[1], db_value[2], db_value[3]);
-	mysql_set_charset("euckr");
-	
-	if(!mysql_errno(mysql))print("db connection success.");
+    mysql = mysql_connect(db_value[0], db_value[1], db_value[2], db_value[3]);
+    mysql_set_charset("euckr");
+
+    if(!mysql_errno(mysql))print("db connection success.");
 }
 
 stock cleaning(playerid){
