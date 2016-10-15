@@ -1,4 +1,4 @@
-/*@u4bi v.04
+/*@u4bi v.05
   @mysql_register_login_gamemode
   @https://github.com/u4bi
 */
@@ -268,6 +268,15 @@ stock server(){
 	AddPlayerClass(289,1925.0215,-1684.2222,13.5469,255.7507,0,0,0,0,0,0);
 }
 stock mode(){}
+/* TODO : README
+	scriptfiles/database.cfg [new file]
+
+	hostname=localhost
+	username=
+	database=
+	password=
+	
+*/
 stock dbcon(){
 	new db_key[4][128] = {"hostname", "username", "database", "password"};
 	new db_value[4][128];
