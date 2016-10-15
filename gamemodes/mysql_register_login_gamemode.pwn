@@ -1,3 +1,7 @@
+/*@u4biv.02
+  @mysql_register_login_gamemode
+  @https://github.com/u4bi
+*/
 #include <a_samp>
 #include <a_mysql>
 
