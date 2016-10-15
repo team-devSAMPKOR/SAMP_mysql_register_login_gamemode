@@ -1,0 +1,437 @@
+[15:20:03] [ERROR] CMySQLQuery::Execute - (error #1146) Table 'u4bi.server_table' doesn't exist
+[15:20:04] [WARNING] cache_get_row_count - no active cache
+[15:20:04] [WARNING] cache_get_row_count - no active cache
+[15:21:30] [ERROR] CMySQLQuery::Execute - (error #1146) Table 'u4bi.server_table' doesn't exist
+[15:21:30] [WARNING] cache_get_row_count - no active cache
+[15:21:30] [WARNING] cache_get_row_count - no active cache
+[15:23:08] [ERROR] CMySQLQuery::Execute - (error #1146) Table 'u4bi.server_table' doesn't exist
+[15:23:08] [WARNING] cache_get_row_count - no active cache
+[15:23:08] [WARNING] cache_get_row_count - no active cache
+[15:25:15] [ERROR] CMySQLQuery::Execute - (error #1146) Table 'u4bi.server_table' doesn't exist
+[15:25:15] [WARNING] cache_get_row_count - no active cache
+[15:25:15] [WARNING] cache_get_row_count - no active cache
+[15:26:09] [ERROR] CMySQLQuery::Execute - (error #1146) Table 'u4bi.server_table' doesn't exist
+[15:26:09] [WARNING] cache_get_row_count - no active cache
+[15:26:09] [WARNING] cache_get_row_count - no active cache
+[15:27:04] [ERROR] CMySQLQuery::Execute - (error #1146) Table 'u4bi.server_table' doesn't exist
+[15:27:04] [WARNING] cache_get_row_count - no active cache
+[15:27:04] [WARNING] cache_get_row_count - no active cache
+[15:30:18] [ERROR] CMySQLQuery::Execute - (error #1146) Table 'u4bi.server_table' doesn't exist
+[15:30:18] [WARNING] cache_get_row_count - no active cache
+[15:30:18] [WARNING] cache_get_row_count - no active cache
+[15:32:25] [ERROR] CMySQLQuery::Execute - (error #1146) Table 'u4bi.server_table' doesn't exist
+[15:32:25] [WARNING] cache_get_row_count - no active cache
+[15:32:25] [WARNING] cache_get_row_count - no active cache
+[15:34:16] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:34:16] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:34:18] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:34:18] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:34:18] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:34:18] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:34:18] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:34:39] [ERROR] CMySQLQuery::Execute - (error #2006) MySQL server has gone away
+[15:34:39] [WARNING] cache_get_row_count - no active cache
+[15:34:39] [WARNING] cache_get_row_count - no active cache
+[15:35:38] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:35:38] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:35:40] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:35:40] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:35:40] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:35:40] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:35:40] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:35:40] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:35:45] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:35:45] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:35:47] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:35:47] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:35:47] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:35:47] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:36:01] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:36:01] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:36:04] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:36:09] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:36:09] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:36:11] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:36:11] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:36:11] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:36:11] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:36:11] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:37:00] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:37:00] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:37:02] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:37:02] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:37:02] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:37:02] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:37:02] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:37:59] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:37:59] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:38:02] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:38:02] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:38:02] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:38:02] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:38:02] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:39:04] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:39:04] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:39:06] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:39:06] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:39:06] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:39:06] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:39:06] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:39:06] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:39:53] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:39:53] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:39:56] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:39:56] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:39:56] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:39:56] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:39:56] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:39:56] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:40:59] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:40:59] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:41:01] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:41:01] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:41:01] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:41:01] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:41:01] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:41:01] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:44:12] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:44:12] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:45:25] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:45:25] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:45:27] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:45:27] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:45:27] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:45:27] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:45:57] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:45:57] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:45:59] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:45:59] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:45:59] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:45:59] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:45:59] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:45:59] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:46:27] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:46:27] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:46:29] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:46:29] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:46:29] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:46:29] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:51:15] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:51:15] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:51:18] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:51:18] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:51:18] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:51:18] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:51:18] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:55:36] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:55:36] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:55:39] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:55:39] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:55:39] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:55:39] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:55:39] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:56:09] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host '=localhost
+' (0)
+[15:56:09] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:57:06] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host '=localhost
+' (0)
+[15:57:06] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:57:08] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host '=localhost
+' (0)
+[15:57:08] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host '=localhost
+' (0)
+[15:57:08] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:57:09] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:57:09] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host '=localhost
+' (0)
+[15:57:09] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:57:36] [ERROR] mysql_connect - empty connection data specified
+[15:57:36] [ERROR] mysql_set_charset - invalid connection handle (id: 1)
+[15:57:36] [ERROR] mysql_errno - invalid connection handle (id: 0)
+[15:57:55] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host '=localhost
+' (0)
+[15:57:55] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:57:58] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host '=localhost
+' (0)
+[15:57:58] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host '=localhost
+' (0)
+[15:57:58] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:57:58] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:57:58] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:58:05] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host '=localhost
+' (0)
+[15:58:05] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:58:08] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host '=localhost
+' (0)
+[15:58:08] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host '=localhost
+' (0)
+[15:58:08] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:58:08] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:58:08] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:58:30] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'e=localhost
+' (0)
+[15:58:30] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:58:32] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'e=localhost
+' (0)
+[15:58:32] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'e=localhost
+' (0)
+[15:58:32] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:58:32] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:58:32] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:58:49] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'me=localhost
+' (0)
+[15:58:49] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:59:03] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'ame=localhost
+' (0)
+[15:59:03] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[15:59:25] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[15:59:25] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:01:19] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost' (0)
+[16:01:19] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:01:43] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:01:43] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:03:15] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:03:15] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:03:17] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:03:17] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:03:17] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:03:17] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:03:17] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:04:07] [ERROR] mysql_connect - empty connection data specified
+[16:04:07] [ERROR] mysql_set_charset - invalid connection handle (id: 1)
+[16:04:07] [ERROR] mysql_errno - invalid connection handle (id: 0)
+[16:04:24] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:04:24] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:04:32] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:04:32] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:04:34] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:04:34] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:04:34] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:04:34] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:04:34] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:07:53] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:07:53] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:07:55] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:07:55] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:07:55] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:07:55] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:34:10] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:34:10] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:34:12] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:34:12] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:34:12] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:34:12] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:34:12] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:34:12] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:36:47] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:36:47] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:38:56] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:38:56] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:38:58] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:38:58] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:38:58] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:38:58] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:38:58] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:38:58] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:39:17] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'e' (0)
+[16:39:17] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:43:25] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:43:25] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:43:27] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:43:27] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:43:27] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:43:27] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:43:27] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:43:32] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:43:32] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:43:45] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:43:45] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:43:55] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:43:55] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:46:03] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:46:03] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:46:31] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:46:31] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:47:01] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: YES)
+[16:47:01] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:47:01] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: YES)
+[16:47:01] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:47:01] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:47:19] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: YES)
+[16:47:19] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:47:19] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: YES)
+[16:47:19] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: YES)
+[16:47:19] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: YES)
+[16:47:19] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:47:19] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:47:19] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:47:40] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:47:40] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:47:43] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:47:43] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:47:43] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:47:43] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:48:06] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:48:06] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:48:08] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:48:08] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:48:08] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:48:08] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:48:30] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:48:30] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:48:32] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:48:32] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:48:32] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:48:32] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:48:52] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:48:52] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:49:01] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:49:01] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:50:21] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:50:21] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:50:55] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:50:55] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:50:57] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:50:57] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:50:57] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:50:57] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:50:57] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:51:13] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:51:13] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:51:23] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:51:23] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:51:37] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:51:37] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:51:39] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:51:39] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:51:39] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:51:39] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:51:39] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:51:39] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:51:53] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:51:53] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:51:55] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:51:55] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:51:55] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:52:27] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:52:27] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:53:48] [ERROR] CMySQLConnection::Connect - (error #2005) Unknown MySQL server host 'localhost
+' (0)
+[16:53:48] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:54:04] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: YES)
+[16:54:04] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:54:04] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: YES)
+[16:54:04] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: YES)
+[16:54:04] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'root'@'localhost' (using password: YES)
+[16:54:04] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:54:04] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
+[16:54:04] [ERROR] CMySQLConnection::SetCharset - invalid charset ("euckr") or not connected
