@@ -5,7 +5,7 @@ MySQL/R33<br>
 foreach v1.1<br>
 <h6>
 <p>
-	브런치목록<p>
+	브런치(branch)목록<p>
 
 	v0.2
 		구조화 디비연결 structured / db connection
