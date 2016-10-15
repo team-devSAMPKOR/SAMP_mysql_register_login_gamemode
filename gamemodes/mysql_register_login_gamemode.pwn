@@ -7,25 +7,25 @@
 #include <foreach>
 
 /*MANAGER 100 */
-#define INIT		100
-#define SQL			101
+#define INIT        100
+#define SQL         101
 
 /*init 200 */
-#define GAMEMODE	200
-#define SERVER		201
-#define MYSQL		202
-#define THREAD		203
-#define USERDATA	204
+#define GAMEMODE    200
+#define SERVER      201
+#define MYSQL       202
+#define THREAD      203
+#define USERDATA    204
 
 /*query 300 */
-#define CHECK		300
-#define REGIST		301
-#define SAVE		302
-#define LOAD		303
+#define CHECK       300
+#define REGIST      301
+#define SAVE        302
+#define LOAD        303
 
 /*Dialog 400 */
-#define DL_LOGIN	400
-#define DL_REGIST	401
+#define DL_LOGIN    400
+#define DL_REGIST   401
 
 main(){}
 
@@ -64,13 +64,13 @@ static mysql;
 	@ OnGameModeExit
 	@ OnGameModeInit -> manager(INIT)
 	@ OnPlayerRequestClass -> join(playerid, type) ->
-											<- return function -> login0/regist1
-											manager(SQL, CHECK, playerid) : join user id check
+                                            <- return function -> login0/regist1
+                                            manager(SQL, CHECK, playerid) : join user id check
 	@ OnDialogResponse -> 	@ login dialog
 							@ regist dialog
-							
+
 	@ OnPlayerCommandText ->@ /sav : data save
-	
+
 	@ OnPlayerDisconnect -> @ data save
 	                        @ init enum
 */
@@ -92,7 +92,7 @@ public OnPlayerRequestClass(playerid, classid){
 
 public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]){
 	if(!response) if(dialogid == DL_LOGIN || dialogid == DL_REGIST) return Kick(playerid);
-    
+
 	switch(dialogid){
 		case DL_LOGIN  : checked(playerid, inputtext);
 		case DL_REGIST : manager(SQL, REGIST, playerid, inputtext);
@@ -149,7 +149,7 @@ stock manager(model, type, playerid = -1, text[] = ""){
 stock checked(playerid, password[]){
 	if(strlen(password) == 0) return join(playerid, 1), SendClientMessage(playerid,-1,"password length");
 	if(strcmp(password, USER[playerid][PASS])) return join(playerid, 1), SendClientMessage(playerid,-1,"login fail");
-	
+
 	SendClientMessage(playerid,-1,"login success");
 	INGAME[playerid][LOGIN] = true;
 	manager(SQL, LOAD, playerid);
@@ -175,7 +175,7 @@ public check(playerid){
 	GetPlayerName(playerid, USER[playerid][NAME], MAX_PLAYER_NAME);
 	mysql_format(mysql, query, sizeof(query), "SELECT ID, PASS FROM `userlog_info` WHERE `NAME` = '%s' LIMIT 1", USER[playerid][NAME]);
 	mysql_query(mysql, query);
-	
+
 	result = cache_num_rows();
 	if(result){
 		USER[playerid][ID] 	= cache_get_field_content_int(0, "ID");
@@ -187,7 +187,7 @@ public check(playerid){
 public regist(playerid, pass[]){
 
 	format(USER[playerid][PASS],24, "%s",pass);
-	
+
 	new query[256];
 	GetPlayerName(playerid, USER[playerid][NAME], MAX_PLAYER_NAME);
 	mysql_format(mysql, query, sizeof(query), "INSERT INTO `userlog_info` (`NAME`,`PASS`,`ADMIN`,`MONEY`,`KILLS`,`DEATHS`,`SKIN`,`POS_X`,`POS_Y`,`POS_Z`,`ANGLE`,`HP`,`AM`) VALUES ('%s','%s',%d,%d,%d,%d,%d,%f,%f,%f,%f,%f,%f)", USER[playerid][NAME], USER[playerid][PASS],
@@ -205,7 +205,7 @@ public regist(playerid, pass[]){
 
 	mysql_query(mysql, query);
 	USER[playerid][ID] = cache_insert_id();
-	
+
 	SendClientMessage(playerid,-1,"regist success");
 	INGAME[playerid][LOGIN] = true;
 	spawn(playerid);
@@ -214,7 +214,7 @@ public regist(playerid, pass[]){
 public save(playerid){
 	GetPlayerPos(playerid,USER[playerid][POS_X],USER[playerid][POS_Y],USER[playerid][POS_Z]);
 	GetPlayerFacingAngle(playerid, USER[playerid][ANGLE]);
-	
+
 	new query[256];
 	mysql_format(mysql, query, sizeof(query), "UPDATE `userlog_info` SET `ADMIN`=%d,`MONEY`=%d,`KILLS`=%d,`DEATHS`=%d,`SKIN`=%d,`POS_X`=%f,`POS_Y`=%f,`POS_Z`=%f,`ANGLE`=%f,`HP`=%f,`AM`=%f WHERE `ID`=%d",
 	USER[playerid][ADMIN], USER[playerid][MONEY], USER[playerid][KILLS], USER[playerid][DEATHS], USER[playerid][SKIN], USER[playerid][POS_X],
@@ -227,7 +227,7 @@ public load(playerid){
 	new query[128];
 	mysql_format(mysql, query, sizeof(query), "SELECT * FROM `userlog_info` WHERE `ID` = %d LIMIT 1", USER[playerid][ID]);
 	mysql_query(mysql, query);
-	
+
 	USER[playerid][ADMIN] 	= cache_get_field_content_int(0, "ADMIN");
 	USER[playerid][MONEY] 	= cache_get_field_content_int(0, "MONEY");
 	USER[playerid][KILLS] 	= cache_get_field_content_int(0, "KILLS");
@@ -276,7 +276,7 @@ stock mode(){}
 	username=
 	database=
 	password=
-	
+
 */
 stock dbcon(){
 	new db_key[4][128] = {"hostname", "username", "database", "password"};
