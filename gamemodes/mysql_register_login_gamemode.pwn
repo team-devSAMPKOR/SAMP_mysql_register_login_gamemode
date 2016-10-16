@@ -289,7 +289,6 @@ stock dbcon(){
         if(strcmp(temp, db_key[tick])){
             new pos = strfind(temp, "=");
             strdel(temp, 0, pos+1);
-            
             new len = strlen(temp);
             if(tick != 3)strdel(temp, len-2, len);
             db_value[tick] = temp;
