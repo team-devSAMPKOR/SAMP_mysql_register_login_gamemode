@@ -228,17 +228,17 @@ public load(playerid){
 	mysql_format(mysql, query, sizeof(query), "SELECT * FROM `userlog_info` WHERE `ID` = %d LIMIT 1", USER[playerid][ID]);
 	mysql_query(mysql, query);
 
-	USER[playerid][ADMIN] 	= cache_get_field_content_int(0, "ADMIN");
-	USER[playerid][MONEY] 	= cache_get_field_content_int(0, "MONEY");
-	USER[playerid][KILLS] 	= cache_get_field_content_int(0, "KILLS");
-	USER[playerid][DEATHS] 	= cache_get_field_content_int(0, "DEATHS");
-	USER[playerid][SKIN] 	= cache_get_field_content_int(0, "SKIN");
-	USER[playerid][POS_X] 	= cache_get_field_content_float(0, "POS_X");
-	USER[playerid][POS_Y] 	= cache_get_field_content_float(0, "POS_Y");
-	USER[playerid][POS_Z] 	= cache_get_field_content_float(0, "POS_Z");
-	USER[playerid][ANGLE]	= cache_get_field_content_float(0, "ANGLE");
-	USER[playerid][HP]	 	= cache_get_field_content_float(0, "HP");
-	USER[playerid][AM]	 	= cache_get_field_content_float(0, "AM");
+	USER[playerid][ADMIN]   = cache_get_field_content_int(0, "ADMIN");
+	USER[playerid][MONEY]   = cache_get_field_content_int(0, "MONEY");
+	USER[playerid][KILLS]   = cache_get_field_content_int(0, "KILLS");
+	USER[playerid][DEATHS]  = cache_get_field_content_int(0, "DEATHS");
+	USER[playerid][SKIN]    = cache_get_field_content_int(0, "SKIN");
+	USER[playerid][POS_X]   = cache_get_field_content_float(0, "POS_X");
+	USER[playerid][POS_Y]   = cache_get_field_content_float(0, "POS_Y");
+	USER[playerid][POS_Z]   = cache_get_field_content_float(0, "POS_Z");
+	USER[playerid][ANGLE]   = cache_get_field_content_float(0, "ANGLE");
+	USER[playerid][HP]      = cache_get_field_content_float(0, "HP");
+	USER[playerid][AM]      = cache_get_field_content_float(0, "AM");
 	spawn(playerid);
 }
 
@@ -286,15 +286,13 @@ stock dbcon(){
     new temp[64], tick =0;
 
     while(fread(cfg, temp)){
-        if(strcmp(temp, db_key[tick], true, 1)==0){
-            while(strfind(temp, "=") != -1){
-                new pos = strfind(temp, "=");
-                strdel(temp, 0, pos+1);
-                new len = strlen(temp);
-                if(tick != 3)strdel(temp, len-2, len);
-                db_value[tick] = temp;
-                break;
-            }
+        if(strcmp(temp, db_key[tick])){
+            new pos = strfind(temp, "=");
+            strdel(temp, 0, pos+1);
+            
+            new len = strlen(temp);
+            if(tick != 3)strdel(temp, len-2, len);
+            db_value[tick] = temp;
         }
         tick++;
     }
@@ -319,7 +317,7 @@ stock cleaning(playerid){
 public ServerThread(){
     foreach (new i : Player){
         eventMoney(i);
-	}
+    }
 }
 
 /* stock -----------------------------------------------------------------------------------------------------------------------------
