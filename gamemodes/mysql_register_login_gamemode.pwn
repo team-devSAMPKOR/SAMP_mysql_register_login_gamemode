@@ -117,6 +117,17 @@ public OnPlayerDisconnect(playerid, reason){
 }
 
 /* manager ------------------------------------------------------------------------------------------------------------------------------
+    @ manager(INIT, GAMEMODE);
+    @ manager(INIT, SERVER);
+    @ manager(INIT, MYSQL);
+    @ manager(INIT, THREAD);
+    @ manager(INIT, USERDATA, playerid);
+	
+    @ manager(SQL, CHECK, playerid); return function : login0/regist1
+
+    @ manager(SQL, REGIST, playerid, pass[]);
+    @ manager(SQL, SAVE, playerid);
+    @ manager(SQL, LOAD, playerid);
 */
 stock manager(model, type, playerid = -1, text[] = ""){
     new result;
